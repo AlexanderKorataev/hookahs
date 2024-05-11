@@ -2,9 +2,7 @@ name: publish_docs.yml
 on:
   push:
     branches:
-      - master 
-      - main
-      - docs 
+     - docs 
 permissions:
   contents: write
 jobs:
